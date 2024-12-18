@@ -105,7 +105,7 @@ export default function page() {
                 <p>. Allow the chicken to rest for 10 minutes before carving</p>
                 <p>. Serve with the pan juices and roasted lemon slices for an extra burst of
                 flavor</p>
-                <I
+                
                 <p className="text-red-500 text-xl mt-10">Pairing Suggestions</p>
                 <p className="mt-4">1. Side Dish: Serve alongside roasted vegetables or a simple green salad</p>
                 <p className="">2. Wine: Pair with a crisp or a for a well-balanced meal.</p>
