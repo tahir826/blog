@@ -4,6 +4,7 @@ import landingPic from "@/public/0.png"
 import second from "@/public/2.png"
 import five from "@/public/5.png"
 import six from "@/public/6.png"
+import one from "@/public/1.png"
 export default function page() {
   return (
     <main>
@@ -90,6 +91,21 @@ export default function page() {
                 <p>. Place lemon slices under the skin, ensuring they cover as much surface as
                   possible.</p>
                 <Image className="mt-10" src={second} alt="second image"></Image>
+                <p className="text-red-500 text-xl mt-10">HERE BLEND</p>
+                <p>. In a small bowl, mix olive oil, dried thyme, dried rosemary, salt, and black<br/>
+                pepper to create a herb infused mixture</p>
+                <p>. Brush the entire chicken with the herb infused mixture, making sure it's<br/>
+                evenly coatedÜ</p>
+                <p>. Season the exterior with additional salt and black pepper to taste</p>
+                <Image className="mt-10" src={one} alt="one"/>
+                <p className="text-red-500 text-xl mt-10">ROAST TO PROFESSION</p>
+                <p>. Place the chicken in a roasting pan, breast side upÜ</p>
+                <p>. Roast in the preheated oven for approximately 1 hour or until the internal<br/>
+                temperature reaches 165°F (74°C)</p>
+                <p>. Allow the chicken to rest for 10 minutes before carving</p>
+                <p>. Serve with the pan juices and roasted lemon slices for an extra burst of
+                flavor</p>
+                <I
                 <p className="text-red-500 text-xl mt-10">Pairing Suggestions</p>
                 <p className="mt-4">1. Side Dish: Serve alongside roasted vegetables or a simple green salad</p>
                 <p className="">2. Wine: Pair with a crisp or a for a well-balanced meal.</p>
