@@ -2,6 +2,8 @@ import logo from "@/public/11.png"
 import Image from "next/image"
 import landingPic from "@/public/0.png"
 import second from "@/public/2.png"
+import five from "@/public/5.png"
+import six from "@/public/6.png"
 export default function page() {
   return (
     <main>
@@ -112,7 +114,7 @@ export default function page() {
                   masterpiece. Cooks Delight is not just a blog; it's a shared space where<br />
                   the love for food transcends boundaries. Here, we celebrate the art of<br />
                   crafting meals that not only nourish the body but also feed the soul.</p>
-                  <div className="flex border border-spacing-2 border-black rounded-full w-32 mt-4 p-3">LEARN MORE</div>
+                <div className="flex border border-spacing-2 border-black rounded-full w-32 mt-4 p-3">LEARN MORE</div>
 
               </div>
               <div>
@@ -159,6 +161,67 @@ export default function page() {
             </div>
 
           </div>
+        </div>
+        <div className="w-full bg-orange-100 px-10 py-10 justify-center  border border-gray-600 rounded-3xl mt-4">
+          <p className="text-4xl font-bold">SIMILAR RECIPIES</p>
+          <div className="flex mt-10 justify-between">
+            <div><Image src={six} alt="six" />
+              <div className="w-full bg-white rounded-b-3xl">
+                <p className="text-2xl font-bold pt-10 pl-4">Savory Herb Infused Chicken</p>
+                <p className="p-4">Indulge in the rich and savory symphony of flavors with our Savory Herb Infused<br />
+                  Chicken</p>
+                <div className="flex justify-between">
+                  <p className="p-4 mt-3">40 Min easy prep 3 serves</p>
+                  <div className="mr-10 mb-4">
+                    <p className="flex border border-spacing-2 border-black rounded-full w-32 mt-4 p-3">VIEW RECIPE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div><Image src={five} alt="five" />
+              <div>
+                <div className="w-full bg-white rounded-b-3xl">
+                  <p className="text-2xl font-bold pt-10 pl-4">Decadent Chocolate Mousse</p>
+                  <p className="p-4">IDive into the velvety indulgence of our Decadent Chocolate Mousse. A dessert<br />
+                    that transcends sweetness!</p>
+                  <div className="flex justify-between">
+                    <p className="p-4 mt-3">30 Min medium prep 4 serves</p>
+                    <div className="mr-10 mb-4">
+                      <p className="flex border border-spacing-2 border-black rounded-full w-32 mt-4 p-3">VIEW RECIPE</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div className="w-full bg-red-600 px-10 py-10 justify-center  border border-red-600 rounded-3xl mt-4">
+          <div><p className="text-2xl font-bold text-white text-center">SUBSCRIBE<br /><span className="text-8xl text-white mt-4 mb-5">JOIN THE FUN<br />SUBSCRIBE NOW!<br /></span><span className="text-2xl">Subscribe to our newsletter for a weekly serving of recipes,<br />
+            cooking tips, and exclusive insights straight to your inbox.</span></p></div>
+          <div className="flex justify-center mt-10">
+            <div className="w-96 h-auto p-3 rounded-full bg-white border border-spacing-4 flex justify-between items-center"><p className="ml-3">Emai address</p>
+              <div className="border-black bg-black text-white p-1 rounded-full px-2">Subscribe</div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex justify-between bg-gray-800 p-5 rounded-3xl mt-4">
+          <div>
+            <Image className="w-24" src={logo} alt="logo"/>
+          </div>
+          <div className="flex gap-5">
+            <p className="text-white">HOME</p>
+            <p className="text-white">RECIPES</p>
+            <p className="text-white">COOKING TIPS</p>
+            <p className="text-white">ABOUT US</p>
+          </div>
+          <div className="flex gap-2">
+            <p className="text-white">t,t</p>
+            <p className="text-white">y,t</p>
+            <p className="text-white">f,b</p>
+            <p className="text-white">i,g</p>
+          </div>
+
         </div>
 
       </div>
